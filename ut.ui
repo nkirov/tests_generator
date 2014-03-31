@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ut</class>
+ <widget class="QDialog" name="ut">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>241</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Test generator, v.1.0, 30.03.2013</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <property name="fieldGrowthPolicy">
+    <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+   </property>
+   <item row="0" column="0">
+    <widget class="Line" name="line_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="input_file_name_label">
+     <property name="text">
+      <string>Input file name:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="input_file_name">
+     <property name="text">
+      <string>t1_data.tex</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="title_label">
+     <property name="text">
+      <string>Title:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QComboBox" name="title">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>NETB101 Computer programming (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NETB201 Data structures (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CITB303 Структури от данни (С++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CITB201 Обектно-ориентирано програмиране (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NETB151 Object-Oriented Programming (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CSCB010 Програмиране за напреднали</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Test No</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="test_no">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>Тест 1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Тест 2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Тест 3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Test 1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Test 2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Test 3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Final test</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Тест</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="ddate_label">
+     <property name="text">
+      <string>Date:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QDateEdit" name="ddate">
+     <property name="date">
+      <date>
+       <year>2014</year>
+       <month>1</month>
+       <day>16</day>
+      </date>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="number_label">
+     <property name="text">
+      <string>Number of test questions:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QSpinBox" name="nnumber">
+     <property name="minimum">
+      <number>2</number>
+     </property>
+     <property name="maximum">
+      <number>20</number>
+     </property>
+     <property name="value">
+      <number>15</number>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="number_of_tests_label">
+     <property name="text">
+      <string>Number of tests:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QSpinBox" name="number_of_tests">
+     <property name="minimum">
+      <number>2</number>
+     </property>
+     <property name="value">
+      <number>35</number>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QPushButton" name="go">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="text">
+      <string>GO</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
