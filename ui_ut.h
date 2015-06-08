@@ -156,7 +156,7 @@ public:
 
     void retranslateUi(QDialog *ut)
     {
-        ut->setWindowTitle(QApplication::translate("ut", "Test generator, v.1.0, 30.03.2013", 0, QApplication::UnicodeUTF8));
+        ut->setWindowTitle(QApplication::translate("ut", "Test generator, v.1.2, 8.06.2015", 0, QApplication::UnicodeUTF8));
         input_file_name_label->setText(QApplication::translate("ut", "Input file name:", 0, QApplication::UnicodeUTF8));
         input_file_name->setText(QApplication::translate("ut", "t1_data.tex", 0, QApplication::UnicodeUTF8));
         title_label->setText(QApplication::translate("ut", "Title:", 0, QApplication::UnicodeUTF8));
