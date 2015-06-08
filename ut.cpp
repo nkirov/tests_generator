@@ -8,6 +8,9 @@ Ut::Ut(QWidget *parent) : QDialog(parent)
 {
 qDebug() << "start Ut";
 	ui.setupUi(this);
+    QDate date = QDate::currentDate();
+    ui.ddate->setDate(date);
+    
 	filename = ui.input_file_name->text();
 	connect(ui.go, SIGNAL(clicked()), this, SLOT(read()));
 
@@ -122,7 +125,7 @@ void Ut::write_one_test(int num_test, QTextStream& out, QTextStream& tab)
 
 
 		out << "\\newpage\\thispagestyle{empty}\\par \n\\hrule \n\\begin{center}\n"
-			<< "{\\bf\\large \\fbox{2013/2014}}\\hfill "
+			<< "{\\bf\\large \\fbox{2014/2015}}\\hfill "
  			<< "{\\bf\\large\\verb|" << ui.test_no->currentText();
 		out << "|}\n \\hfill{\\bf\\large \\fbox{ NBU }}\\\\ \n"
 	    		<< "{\\bf\\large " << ui.title->currentText() << "}\\\\[4pt]\n"

@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ut.ui'
 **
-** Created: Mon Mar 31 18:17:51 2014
-**      by: Qt User Interface Compiler version 4.8.0
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -51,7 +50,7 @@ public:
     {
         if (ut->objectName().isEmpty())
             ut->setObjectName(QString::fromUtf8("ut"));
-        ut->resize(446, 241);
+        ut->resize(591, 294);
         formLayout = new QFormLayout(ut);
         formLayout->setObjectName(QString::fromUtf8("formLayout"));
         formLayout->setFieldGrowthPolicy(QFormLayout::AllNonFixedFieldsGrow);
@@ -100,7 +99,8 @@ public:
 
         ddate = new QDateEdit(ut);
         ddate->setObjectName(QString::fromUtf8("ddate"));
-        ddate->setDate(QDate(2014, 1, 16));
+        ddate->setDate(QDate(2015, 6, 25));
+        ddate->setCalendarPopup(false);
 
         formLayout->setWidget(6, QFormLayout::FieldRole, ddate);
 
@@ -162,12 +162,13 @@ public:
         title_label->setText(QApplication::translate("ut", "Title:", 0, QApplication::UnicodeUTF8));
         title->clear();
         title->insertItems(0, QStringList()
-         << QApplication::translate("ut", "NETB101 Computer programming (C++)", 0, QApplication::UnicodeUTF8)
-         << QApplication::translate("ut", "NETB201 Data structures (C++)", 0, QApplication::UnicodeUTF8)
-         << QApplication::translate("ut", "CITB303 \320\241\321\202\321\200\321\203\320\272\321\202\321\203\321\200\320\270 \320\276\321\202 \320\264\320\260\320\275\320\275\320\270 (\320\241++)", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CITB101 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\275\320\260 \320\241 \320\270 \320\241++", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "CITB201 \320\236\320\261\320\265\320\272\321\202\320\275\320\276-\320\276\321\200\320\270\320\265\320\275\321\202\320\270\321\200\320\260\320\275\320\276 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 (C++)", 0, QApplication::UnicodeUTF8)
-         << QApplication::translate("ut", "NETB151 Object-Oriented Programming (C++)", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CITB303 \320\241\321\202\321\200\321\203\320\272\321\202\321\203\321\200\320\270 \320\276\321\202 \320\264\320\260\320\275\320\275\320\270 (\320\241++)", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "CSCB010 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\267\320\260 \320\275\320\260\320\277\321\200\320\265\320\264\320\275\320\260\320\273\320\270", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "NETB201 Data structures (C++)", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "NETB101 Computer programming (C++)", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "NETB151 Object-Oriented Programming (C++)", 0, QApplication::UnicodeUTF8)
         );
         label->setText(QApplication::translate("ut", "Test No", 0, QApplication::UnicodeUTF8));
         test_no->clear();
@@ -182,6 +183,7 @@ public:
          << QApplication::translate("ut", "\320\242\320\265\321\201\321\202", 0, QApplication::UnicodeUTF8)
         );
         ddate_label->setText(QApplication::translate("ut", "Date:", 0, QApplication::UnicodeUTF8));
+        ddate->setDisplayFormat(QApplication::translate("ut", "d.MM.yyyy", 0, QApplication::UnicodeUTF8));
         number_label->setText(QApplication::translate("ut", "Number of test questions:", 0, QApplication::UnicodeUTF8));
         number_of_tests_label->setText(QApplication::translate("ut", "Number of tests:", 0, QApplication::UnicodeUTF8));
         go->setText(QApplication::translate("ut", "GO", 0, QApplication::UnicodeUTF8));

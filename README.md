@@ -1,4 +1,4 @@
-﻿tests_generator
+tests_generator
 ===============
 
 For philosophy of the tests see:
@@ -7,5 +7,10 @@ http://nikolay.kirov.be/zip/fulda2013c.pdf
 
 Text in Bulgarian about tests:
 http://nikolay.kirov.be/2014/tests_notes/seminar_NBU_2014.html
+
+For Mac:
+open ../../../../tests_generator/tests_generator.app
+../../../../tests_generator/tests_generator.app/Contents/MacOS/tests_generator 
+
 
 

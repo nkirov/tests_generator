@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>446</width>
-    <height>241</height>
+    <width>591</width>
+    <height>294</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -55,17 +55,7 @@
      </property>
      <item>
       <property name="text">
-       <string>NETB101 Computer programming (C++)</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>NETB201 Data structures (C++)</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>CITB303 Структури от данни (С++)</string>
+       <string>CITB101 Програмиране на С и С++</string>
       </property>
      </item>
      <item>
@@ -75,12 +65,27 @@
      </item>
      <item>
       <property name="text">
-       <string>NETB151 Object-Oriented Programming (C++)</string>
+       <string>CITB303 Структури от данни (С++)</string>
       </property>
      </item>
      <item>
       <property name="text">
        <string>CSCB010 Програмиране за напреднали</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NETB201 Data structures (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NETB101 Computer programming (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NETB151 Object-Oriented Programming (C++)</string>
       </property>
      </item>
     </widget>
@@ -150,10 +155,16 @@
     <widget class="QDateEdit" name="ddate">
      <property name="date">
       <date>
-       <year>2014</year>
-       <month>1</month>
-       <day>16</day>
+       <year>2015</year>
+       <month>6</month>
+       <day>25</day>
       </date>
+     </property>
+     <property name="displayFormat">
+      <string>d.MM.yyyy</string>
+     </property>
+     <property name="calendarPopup">
+      <bool>false</bool>
      </property>
     </widget>
    </item>
