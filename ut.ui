@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Test generator, v.1.2, 8.06.2015</string>
+   <string>Test generator, v.2, 27.11.2016</string>
   </property>
   <layout class="QFormLayout" name="formLayout">
    <property name="fieldGrowthPolicy">
@@ -55,12 +55,12 @@
      </property>
      <item>
       <property name="text">
-       <string>CITB101 Програмиране на С и С++</string>
+       <string>CITB100 Програмиране</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>CITB201 Обектно-ориентирано програмиране (C++)</string>
+       <string>CSCB300 Програмиране за напреднали</string>
       </property>
      </item>
      <item>
@@ -70,12 +70,27 @@
      </item>
      <item>
       <property name="text">
-       <string>CSCB010 Програмиране за напреднали</string>
+       <string>CITB101 Програмиране на С и С++</string>
       </property>
      </item>
      <item>
       <property name="text">
        <string>NETB201 Data structures (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CITB201 Обектно-ориентирано програмиране (C++)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Програмиране на С</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CSCB010 Програмиране за напреднали</string>
       </property>
      </item>
      <item>
@@ -119,6 +134,11 @@
      </item>
      <item>
       <property name="text">
+       <string>Тест 4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
        <string>Test 1</string>
       </property>
      </item>
@@ -130,6 +150,16 @@
      <item>
       <property name="text">
        <string>Test 3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Item</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Test 4</string>
       </property>
      </item>
      <item>

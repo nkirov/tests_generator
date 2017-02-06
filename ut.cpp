@@ -22,7 +22,7 @@ Question::Question(QString s)
 	text = s;
 }
 
-Question::Answer::Answer(QString s, const bool corr)
+Question::Answer::Answer(QString s, bool corr)
 {
 	text = s;
 	correct = corr;
@@ -83,12 +83,14 @@ qDebug() << ui.nnumber->value();
 		{
 			one_test.insert(num);
 			v_one_test.push_back(num);
-			i++;		
+			i++;
+qDebug() << i;
 			test[num].set_ans.clear();
 			test[num].v_set_ans.clear();
 			int j = 0;
 			while (j < 4)
 			{
+qDebug() << i << j;
 				int nums = qrand()%test[num].ans.size();
 qDebug() << i << ":" << num << j << ":" << nums;				
 				if (!test[num].set_ans.contains(nums))
@@ -125,7 +127,7 @@ void Ut::write_one_test(int num_test, QTextStream& out, QTextStream& tab)
 
 
 		out << "\\newpage\\thispagestyle{empty}\\par \n\\hrule \n\\begin{center}\n"
-			<< "{\\bf\\large \\fbox{2014/2015}}\\hfill "
+			<< "{\\bf\\large \\fbox{2016/2017}}\\hfill "
  			<< "{\\bf\\large\\verb|" << ui.test_no->currentText();
 		out << "|}\n \\hfill{\\bf\\large \\fbox{ NBU }}\\\\ \n"
 	    		<< "{\\bf\\large " << ui.title->currentText() << "}\\\\[4pt]\n"
@@ -162,7 +164,15 @@ void Ut::write_one_test(int num_test, QTextStream& out, QTextStream& tab)
 				tab << static_cast<char>('a' + j);
 				numplus++;
 			}
-			test[k].ans[l].itest.push_back(Three(num_test, i, j));
+/* begin add 2016 digits
+            else if (corr[0].isDigit())
+            {
+                tab << corr;
+                numplus++;
+            }
+ end add 2016 digits 
+ */
+    test[k].ans[l].itest.push_back(Three(num_test, i, j));
 			j++;	
 		}
 	}

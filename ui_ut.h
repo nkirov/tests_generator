@@ -156,17 +156,20 @@ public:
 
     void retranslateUi(QDialog *ut)
     {
-        ut->setWindowTitle(QApplication::translate("ut", "Test generator, v.1.2, 8.06.2015", 0, QApplication::UnicodeUTF8));
+        ut->setWindowTitle(QApplication::translate("ut", "Test generator, v.2, 27.11.2016", 0, QApplication::UnicodeUTF8));
         input_file_name_label->setText(QApplication::translate("ut", "Input file name:", 0, QApplication::UnicodeUTF8));
         input_file_name->setText(QApplication::translate("ut", "t1_data.tex", 0, QApplication::UnicodeUTF8));
         title_label->setText(QApplication::translate("ut", "Title:", 0, QApplication::UnicodeUTF8));
         title->clear();
         title->insertItems(0, QStringList()
-         << QApplication::translate("ut", "CITB101 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\275\320\260 \320\241 \320\270 \320\241++", 0, QApplication::UnicodeUTF8)
-         << QApplication::translate("ut", "CITB201 \320\236\320\261\320\265\320\272\321\202\320\275\320\276-\320\276\321\200\320\270\320\265\320\275\321\202\320\270\321\200\320\260\320\275\320\276 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 (C++)", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CITB100 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CSCB300 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\267\320\260 \320\275\320\260\320\277\321\200\320\265\320\264\320\275\320\260\320\273\320\270", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "CITB303 \320\241\321\202\321\200\321\203\320\272\321\202\321\203\321\200\320\270 \320\276\321\202 \320\264\320\260\320\275\320\275\320\270 (\320\241++)", 0, QApplication::UnicodeUTF8)
-         << QApplication::translate("ut", "CSCB010 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\267\320\260 \320\275\320\260\320\277\321\200\320\265\320\264\320\275\320\260\320\273\320\270", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CITB101 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\275\320\260 \320\241 \320\270 \320\241++", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "NETB201 Data structures (C++)", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CITB201 \320\236\320\261\320\265\320\272\321\202\320\275\320\276-\320\276\321\200\320\270\320\265\320\275\321\202\320\270\321\200\320\260\320\275\320\276 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 (C++)", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "\320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\275\320\260 \320\241", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CSCB010 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\267\320\260 \320\275\320\260\320\277\321\200\320\265\320\264\320\275\320\260\320\273\320\270", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "NETB101 Computer programming (C++)", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "NETB151 Object-Oriented Programming (C++)", 0, QApplication::UnicodeUTF8)
         );
@@ -176,9 +179,12 @@ public:
          << QApplication::translate("ut", "\320\242\320\265\321\201\321\202 1", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "\320\242\320\265\321\201\321\202 2", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "\320\242\320\265\321\201\321\202 3", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "\320\242\320\265\321\201\321\202 4", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "Test 1", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "Test 2", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "Test 3", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "New Item", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "Test 4", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "Final test", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "\320\242\320\265\321\201\321\202", 0, QApplication::UnicodeUTF8)
         );

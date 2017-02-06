@@ -23,14 +23,15 @@ public:
 	class Answer
 	{
 		QString text;
-		bool correct;
+        bool correct;
 		int num; 
 	public:
-		Answer(QString, const bool);
+        Answer(QString, const bool); 
 		Answer() {};
 		QString get_text() const { return text; }
 		QString get_correct() const 
-			{ return correct?"+":"-"; }
+            { return correct?"+":"-"; }
+        
 		QVector<Three> itest;
 	};
 	Question(QString);
