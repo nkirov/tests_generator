@@ -15,5 +15,7 @@ For Mac:
 open ../../../../tests_generator/tests_generator.app
 ../../../../tests_generator/tests_generator.app/Contents/MacOS/tests_generator 
 
+../../../../git/tests_generator/tests_generator.app/Contents/MacOS/tests_generator
+
 
 

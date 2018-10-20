@@ -127,7 +127,7 @@ void Ut::write_one_test(int num_test, QTextStream& out, QTextStream& tab)
 
 
 		out << "\\newpage\\thispagestyle{empty}\\par \n\\hrule \n\\begin{center}\n"
-			<< "{\\bf\\large \\fbox{2016/2017}}\\hfill "
+			<< "{\\bf\\large \\fbox{2018/2019}}\\hfill "
  			<< "{\\bf\\large\\verb|" << ui.test_no->currentText();
 		out << "|}\n \\hfill{\\bf\\large \\fbox{ NBU }}\\\\ \n"
 	    		<< "{\\bf\\large " << ui.title->currentText() << "}\\\\[4pt]\n"

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ut.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 4.8.7
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -163,6 +163,7 @@ public:
         title->clear();
         title->insertItems(0, QStringList()
          << QApplication::translate("ut", "CITB100 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("ut", "CITB107 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "CSCB300 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\267\320\260 \320\275\320\260\320\277\321\200\320\265\320\264\320\275\320\260\320\273\320\270", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "CITB303 \320\241\321\202\321\200\321\203\320\272\321\202\321\203\321\200\320\270 \320\276\321\202 \320\264\320\260\320\275\320\275\320\270 (\320\241++)", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("ut", "CITB101 \320\237\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\260\320\275\320\265 \320\275\320\260 \320\241 \320\270 \320\241++", 0, QApplication::UnicodeUTF8)

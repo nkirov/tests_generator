@@ -60,6 +60,11 @@
      </item>
      <item>
       <property name="text">
+       <string>CITB107 Програмиране</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
        <string>CSCB300 Програмиране за напреднали</string>
       </property>
      </item>
